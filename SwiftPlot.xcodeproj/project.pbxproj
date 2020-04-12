@@ -15,6 +15,7 @@
 		D252424F24438461006BE623 /* Shortcut.txt in Resources */ = {isa = PBXBuildFile; fileRef = D252424E24438461006BE623 /* Shortcut.txt */; };
 		D25242512443859C006BE623 /* CorePlot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D252423F24438438006BE623 /* CorePlot.framework */; };
 		D25242522443859C006BE623 /* CorePlot.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D252423F24438438006BE623 /* CorePlot.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D25242CD2443B3A4006BE623 /* License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D25242BF2443B3A4006BE623 /* License.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,7 @@
 		D2524225244383A8006BE623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D252422E24438437006BE623 /* CorePlot.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CorePlot.xcodeproj; path = "../../core-plot-release-2.4/framework/CorePlot.xcodeproj"; sourceTree = "<group>"; };
 		D252424E24438461006BE623 /* Shortcut.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Shortcut.txt; path = "../../../core-plot-release-2.4/Shortcut.txt"; sourceTree = "<group>"; };
+		D25242BF2443B3A4006BE623 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				D252424E24438461006BE623 /* Shortcut.txt */,
+				D25242BF2443B3A4006BE623 /* License.rtf */,
 				D2524210244383A7006BE623 /* AppDelegate.swift */,
 				D2524212244383A7006BE623 /* ViewController.swift */,
 				D2524214244383A8006BE623 /* Assets.xcassets */,
@@ -343,6 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25242CD2443B3A4006BE623 /* License.rtf in Resources */,
 				D252424F24438461006BE623 /* Shortcut.txt in Resources */,
 				D2524215244383A8006BE623 /* Assets.xcassets in Resources */,
 				D2524218244383A8006BE623 /* Main.storyboard in Resources */,
